@@ -26,4 +26,4 @@ Here is the link to download zip 👉
 
 ## Credits
 
-#### Credits to Saad Pasta <a href='https://github.com/CleverProgrammers/portfolio-react-cp'>Original Repo</a>
+#### Credits to David Raposi <a href='https://github.com/CleverProgrammers/portfolio-react-cp'>Original Repo</a>
