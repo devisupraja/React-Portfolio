@@ -90,6 +90,10 @@
   transform: scale(30);
 }
 
+.assignment{
+  float: right;
+}
+
 .blog-card:hover > .small {
   transition: all 0.3s ease-out;
   color: rgba(255, 255, 255, 0.8);

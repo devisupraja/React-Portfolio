@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1u0v4W9EcnBXe69IkvGQED3mVypTS8Q4C/view?usp=sharing",
+    "https://drive.google.com/file/d/1lXc2UbLrzot2KQHXGh4y4ZnF9HQHOItv/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -23,10 +23,10 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/devisupraja",
-  // linkedin: "https://www.linkedin.com/in/",
+  linkedin: "https://www.linkedin.com/in/devi-supraja-ratakonda/",
   gmail: "dr986@drexel.edu",
   // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
+  facebook: "https://www.facebook.com/devisupraja.ratakonda",
   // medium: "https://medium.com/@davidrakosi",
   // stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
   instagram: 'https://www.instagram.com/devi_supraja/',
@@ -100,26 +100,28 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Drexel University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      logo: require("./assets/images/drexel.png"),
+      subHeader: "Master of Science in Data Science",
+      duration: "January 2021 - August 2022",
+      desc: "CGPA - 4",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "CourseWork - Data Acquistion, preprocessing, analysis and interpretation, Machine learning, "
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "Vellore Institute of Technology",
+      logo: require("./assets/images/vit.jpeg"),
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "July 2014 - May 2018",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        "CGPA - 8.26",
+      descBullets: [
+        "CourseWork - programming foundations, operating systems, Web Techonologies, Software Engineering, Data Mining and warehousing, Database Management systems,"
+      ]
     }
   ]
 };
@@ -179,7 +181,9 @@ const workExperiences = {
       descBullets: [
         "Knowledge on directives, Controllers, Scope variables, Events, Forms, Routing, Packages",
         "Involved in Ionic FrameWork for mobile applications",
-        "Grip on postman scripts, RESTful APIs "
+        "Grip on postman scripts, RESTful APIs ",
+        "MongoDB Schema Design",
+        "GridFS"
       ]
     }
   ]
@@ -293,23 +297,18 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  title: emoji("Recommendations ✨"),
+  // subtitle:
+  //   "With encouragement and ",
 
   blogs: [
     {
-      url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: require("./assets/images/Manager.JPG"),
+      name: "- Product Manager"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: require("./assets/images/TeamLead.JPG"),
+      name: "- Team Lead"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -348,10 +347,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎"),
+  title: emoji("Contact Me 📧"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(469) 882 0674",
+    "Discuss a project or the opportunity just want to say hi? My Inbox is open for all.",
+  number: "(469) 882 7114",
   email_address: "dr986@drexel.edu"
 };
 

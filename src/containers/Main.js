@@ -22,7 +22,7 @@ export default class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isDark: false
+      isDark: true
     };
   }
 
@@ -54,10 +54,10 @@ export default class Main extends Component {
           <Projects />
           {/* <StartupProject />
           <Achievement /> */}
-          {/* <Blogs /> */}
+          <Blogs />
           {/* <Talks /> */}
           {/* <Twitter /> */}
-          <Podcast />
+          {/* <Podcast /> */}
           <Profile />
           <Footer />
           <Top />

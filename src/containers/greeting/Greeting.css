@@ -32,6 +32,31 @@
   margin-top: 20px;
 }
 
+.game-cards{
+  padding:15px 0px 15px 22px;
+  display: flex;
+  float: left;
+}
+
+.inputClass{
+  transform: none;
+  padding: 6px;
+}
+
+.game-color {
+  font-style: italic;
+  font-size: 48px;
+  line-height: 45px;
+  padding-left: 32px;
+  padding-top: 32px;
+  color:olive;
+}
+
+.font{
+  padding-left: 32px;
+  font-size: 20px
+}
+
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
@@ -43,10 +68,10 @@
   line-height: 40px;
 }
 
-.greeting-image-div > img {
+/* .greeting-image-div > img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .wave-emoji {
   animation-duration: 1.8s;
@@ -105,9 +130,9 @@
   .greeting-main {
     display: block;
   }
-  .greeting-image-div {
+  /* .greeting-image-div {
     height: 256px;
-  }
+  } */
 }
 
 @media (max-width: 320px) {

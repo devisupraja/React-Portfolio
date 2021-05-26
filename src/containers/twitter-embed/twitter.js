@@ -2,7 +2,6 @@ import React, {Suspense, useContext} from "react";
 import "./twitter.css";
 import Loading from "../loading/Loading";
 import {TwitterTimelineEmbed} from "react-twitter-embed";
-import InstagramEmbed from 'react-instagram-embed';
 import {twitterDetails} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -42,7 +41,7 @@ export default function Twitter() {
               noFooter={true}
               onload={timeOut()}
             />
-            <InstagramEmbed
+            {/* <InstagramEmbed
               url='https://www.instagram.com/devi_supraja/'
               clientAccessToken='123|456'
               maxWidth={320}
@@ -54,7 +53,7 @@ export default function Twitter() {
               onSuccess={() => {}}
               onAfterRender={() => {}}
               onFailure={() => {}}
-            />
+            /> */}
           </div>
         </div>
       </Suspense>
