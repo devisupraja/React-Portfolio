@@ -109,7 +109,7 @@ const educationInfo = {
       duration: "January 2021 - August 2022",
       desc: "CGPA - 4",
       descBullets: [
-        "CourseWork - Data Acquistion, preprocessing, analysis and interpretation, Machine learning, "
+        "CourseWork - Data Acquistion, preprocessing, analysis and interpretation, Machine learning"
       ]
     },
     {
@@ -120,7 +120,7 @@ const educationInfo = {
       desc:
         "CGPA - 8.26",
       descBullets: [
-        "CourseWork - programming foundations, operating systems, Web Techonologies, Software Engineering, Data Mining and warehousing, Database Management systems,"
+        "CourseWork - programming foundations, operating systems, Web Techonologies, Software Engineering, Data Mining and warehousing, Database Management systems"
       ]
     }
   ]
